@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(8, 138, 173, 0.986);
+  position: relative;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    45deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgb(95, 189, 100) 67%,
+    rgb(253, 45, 218) 100%
+  );
+  position: relative;
+  top: 40vh;
+  color: rgba(60, 25, 218, 0.472);
+  font-size: 3em;
+  padding: 8px;
+  font-weight: bold;
+}
+
+@media (max-width: 478px) {
+  .countdown {
+    font-size: 1em;
+  }
+}
